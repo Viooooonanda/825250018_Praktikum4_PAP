@@ -2,10 +2,24 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin-top: 50px;
-    background-color: rgb(255, 240, 251);
+    /* background-color: rgb(255, 240, 251); */
+    background-image: url('https://images.unsplash.com/photo-1673423050646-38d6d4056a40?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 20px;
 }
 
+header{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(135deg, #bf4bac, #b04aa4);
+    border: 2px solid #333;
+    border-radius: 5px;
+}
 button{
+    font-family: 'Times New Roman', Times, serif;
     padding: 15px 30px;
     margin: 10px;
     border: none;
@@ -17,18 +31,20 @@ button{
 #tombol1{
     background-color: #af4c95;
     color: white;
+    border: 2px solid #333;
 }
 
 #tombol2{
     background-color: #c266aa;
     color: white;
+    border: 2px solid #333;
 }
 
 .id-card {
     margin: 20px auto;
-    width: 300px;
+    width: 450px;
     padding: 20px;
-    border: 2px solid #333;
+    border: 5px solid #333;
     border-radius: 10px;
     background: linear-gradient(135deg, #fae0f6, #ca6cbf);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -37,11 +53,11 @@ button{
 
 .id-card h2 {
     margin: 0;
-    font-size: 20px;
+    font-size: 30px;
     color: #79006f;
 }
 
 .id-card p{
     margin: 5px 0;
-    font-size: 15px;
+    font-size: 20px;
 }
